@@ -10,34 +10,100 @@ body{
 }
 .nav{
    padding-top: 1rem;
-   border: solid;
    display: flex;
    flex-direction: rows;
    gap: 10rem;
+   margin-bottom: 1rem;
 }
 .nav-heading{
-    border: solid;
     display: flex;
     gap: 4rem;
     font-family: "poppins", sans-serif;
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(0, 10%,20%);
 }
 .nav-download{
-    padding: 0.4rem;
+    display: flex;
+    flex-direction: rows;
     background-color: #fff;
-    border: 0.1rem solid;
-    border-radius: 1rem;
+    border:solid;
+    border-radius: 0.8rem;
 }
 .nav-logo{
-    border:solid;
+    
 }
 .logo-image{
     width: 12rem;
 }
+.download-logo{
+    width: 1rem;
+}
 
+/*main secton */
 .main{
+    display: flex;
+    flex-direction: column;
     background-color: green;
-}.footer{
+}
+.hero{
+    border: solid
+}
+.hero-image{
+  background-image: url('images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png_1.jpeg');
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  width: 100%;                  
+  height: 400px;                
+  display: flex;                
+  align-items: center;         
+  justify-content: center;
+  position: relative;    
+}
+.hero-accommodation{
+    top: 15rem;
+    left: 15rem;
+    color: white;
+    font-size: 4rem;
+   position: absolute;
+}
+.positioned{
+    margin-top:15rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: white;
+    border-radius:1rem;
+    width: 50rem;
+    height: 5rem;
+    gap: 2rem;
+}
+.position{
+    padding: 1rem;
+    border: solid;
+     display:flex;
+    flex-direction: row;
+    border-radius: 2rem;
+}
+.position-image{
+    width: 2rem;
+}
+.hero-search{
+    padding: 1rem;
+    width: 10rem;
+    height: 1rem;
+    background-color: blue;
+    border-radius:1rem;
+    color: white;
+}
+.gallery{
+    border: solid;
+}
+.main{
+    border: solid;
+}
+
+.footer{
     background-color: grey;
 }
