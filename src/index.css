@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+.nav{
+   padding-top: 1rem;
+   border: solid;
+   display: flex;
+   flex-direction: rows;
+   gap: 10rem;
+}
+.nav-heading{
+    border: solid;
+    display: flex;
+    gap: 4rem;
+    font-family: "poppins", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.nav-download{
+    padding: 0.4rem;
+    background-color: #fff;
+    border: 0.1rem solid;
+    border-radius: 1rem;
+}
+.nav-logo{
+    border:solid;
+}
+.logo-image{
+    width: 12rem;
+}
+
+.main{
+    background-color: green;
+}.footer{
+    background-color: grey;
+}
